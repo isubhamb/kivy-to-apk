@@ -119,11 +119,11 @@ class MyApp(MDApp):
         try:
             # Attempt to connect to the MySQL database
             self.db_connection = mysql.connector.connect(
-                host="mysql-pmgr-isubhambhattacharya-5327.j.aivencloud.com",
-                user="avnadmin",
-                password="AVNS_8E-XAqu3Hwn3UkAyvQL",
-                database="defaultdb",
-                port="15921",
+                host="",
+                user="",
+                password="",
+                database="",
+                port="",
             )
             # If the connection is successful, set the flag to True
             if self.db_connection.is_connected():
